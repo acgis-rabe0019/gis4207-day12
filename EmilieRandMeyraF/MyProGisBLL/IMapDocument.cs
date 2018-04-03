@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace MyProGisBLL
 {
-    public class Class1
-    {
-    }
+    public interface IMapDocument
+        {
+        IMap FocusMap {get;}
+        IMap[] Maps {get;}
+        IMap GetMap(string name);
+        }
 }
