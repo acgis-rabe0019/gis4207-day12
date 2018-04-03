@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace MyProGisBLL
 {
-    public class MapDocument
+    public interface ILayer
     {
+        string Name { get; set; }
     }
 }

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace MyProGisBLL
 {
-    public class MapDocument
+    public interface IFeatureLayer
     {
+        string FeatureClass { get; set; }
     }
 }
