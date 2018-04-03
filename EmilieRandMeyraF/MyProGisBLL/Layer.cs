@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace MyProGisBLL
 {
-    public class Layer
+    public class Layer : ILayer
     {
+        string ILayer.Name
+        {
+            get
+            {
+                throw new NotImplementedException();
+            }
+
+            set
+            {
+                throw new NotImplementedException();
+            }
+        }
     }
 }
