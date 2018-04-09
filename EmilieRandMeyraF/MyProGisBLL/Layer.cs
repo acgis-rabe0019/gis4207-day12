@@ -8,16 +8,18 @@ namespace MyProGisBLL
 {
     public class Layer : ILayer
     {
+        private string _name;
+
         string ILayer.Name
         {
             get
             {
-                throw new NotImplementedException();
+                return _name;
             }
 
             set
             {
-                throw new NotImplementedException();
+                _name = value;
             }
         }
     }
