@@ -6,3 +6,11 @@ C:\courses\gis4207_Customization_I\day12\lab\EmilieRandMeyraF\MyProGisBLLTests\b
 C:\courses\gis4207_Customization_I\day12\lab\EmilieRandMeyraF\MyProGisBLLTests\obj\Debug\MyProGisBLLTests.csprojResolveAssemblyReference.cache
 C:\courses\gis4207_Customization_I\day12\lab\EmilieRandMeyraF\MyProGisBLLTests\obj\Debug\MyProGisBLLTests.dll
 C:\courses\gis4207_Customization_I\day12\lab\EmilieRandMeyraF\MyProGisBLLTests\obj\Debug\MyProGisBLLTests.pdb
+C:\ALGONQUIN_COLLEGE\gis4207\day12\lab\EmilieRandMeyraF\MyProGisBLLTests\bin\Debug\MyProGisBLLTests.dll
+C:\ALGONQUIN_COLLEGE\gis4207\day12\lab\EmilieRandMeyraF\MyProGisBLLTests\bin\Debug\MyProGisBLLTests.pdb
+C:\ALGONQUIN_COLLEGE\gis4207\day12\lab\EmilieRandMeyraF\MyProGisBLLTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\ALGONQUIN_COLLEGE\gis4207\day12\lab\EmilieRandMeyraF\MyProGisBLLTests\bin\Debug\MyProGisBLL.dll
+C:\ALGONQUIN_COLLEGE\gis4207\day12\lab\EmilieRandMeyraF\MyProGisBLLTests\bin\Debug\MyProGisBLL.pdb
+C:\ALGONQUIN_COLLEGE\gis4207\day12\lab\EmilieRandMeyraF\MyProGisBLLTests\obj\Debug\MyProGisBLLTests.csprojResolveAssemblyReference.cache
+C:\ALGONQUIN_COLLEGE\gis4207\day12\lab\EmilieRandMeyraF\MyProGisBLLTests\obj\Debug\MyProGisBLLTests.dll
+C:\ALGONQUIN_COLLEGE\gis4207\day12\lab\EmilieRandMeyraF\MyProGisBLLTests\obj\Debug\MyProGisBLLTests.pdb
