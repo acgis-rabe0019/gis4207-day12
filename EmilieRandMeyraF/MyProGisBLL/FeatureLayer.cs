@@ -8,16 +8,18 @@ namespace MyProGisBLL
 {
     public class FeatureLayer : Layer, IFeatureLayer
     {
+        private string _FeatureClass;
+
         string IFeatureLayer.FeatureClass
         {
             get
             {
-                throw new NotImplementedException();
+                return _FeatureClass;
             }
 
             set
             {
-                throw new NotImplementedException();
+                _FeatureClass = value;
             }
         }
     }
