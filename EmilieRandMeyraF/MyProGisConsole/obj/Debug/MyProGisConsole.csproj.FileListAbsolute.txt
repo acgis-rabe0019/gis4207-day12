@@ -1,8 +1,0 @@
-C:\courses\gis4207_Customization_I\day12\labBU\EmilieRandMeyraF\MyProGisConsole\bin\Debug\MyProGisConsole.exe.config
-C:\courses\gis4207_Customization_I\day12\labBU\EmilieRandMeyraF\MyProGisConsole\bin\Debug\MyProGisConsole.exe
-C:\courses\gis4207_Customization_I\day12\labBU\EmilieRandMeyraF\MyProGisConsole\bin\Debug\MyProGisConsole.pdb
-C:\courses\gis4207_Customization_I\day12\labBU\EmilieRandMeyraF\MyProGisConsole\bin\Debug\MyProGisBLL.dll
-C:\courses\gis4207_Customization_I\day12\labBU\EmilieRandMeyraF\MyProGisConsole\bin\Debug\MyProGisBLL.pdb
-C:\courses\gis4207_Customization_I\day12\labBU\EmilieRandMeyraF\MyProGisConsole\obj\Debug\MyProGisConsole.csprojResolveAssemblyReference.cache
-C:\courses\gis4207_Customization_I\day12\labBU\EmilieRandMeyraF\MyProGisConsole\obj\Debug\MyProGisConsole.exe
-C:\courses\gis4207_Customization_I\day12\labBU\EmilieRandMeyraF\MyProGisConsole\obj\Debug\MyProGisConsole.pdb
