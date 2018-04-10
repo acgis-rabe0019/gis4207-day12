@@ -8,7 +8,7 @@ namespace MyProGisBLL
 {
     public interface IMapDocument
         {
-        IMap FocusMap {get;}
+        IMap FocusMap { get; set; }
         IMap[] Maps {get;}
         IMap GetMap(string name);
         }

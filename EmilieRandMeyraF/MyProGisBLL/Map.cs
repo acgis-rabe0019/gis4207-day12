@@ -21,7 +21,7 @@ namespace MyProGisBLL
 
             set
             {
-                throw new NotImplementedException();
+                _name = value;
             }
         }
 
@@ -37,7 +37,7 @@ namespace MyProGisBLL
         {
             get
             {
-                throw new NotImplementedException();
+                return _layerCount;
             }
         }
 
@@ -50,7 +50,22 @@ namespace MyProGisBLL
 
         void IMap.RemoveLayer(int index)
         {
-            throw new NotImplementedException();
+            if (index < 0 || index > _layerCount - 1)
+                return;
+
+            ILayer[] newLayers = new ILayer[_layers.Length - 1];
+            for (int i = 0; i < _layers.Length; i++)
+            {
+                if (i == index)
+                    continue;
+                else if (i < index)
+                    newLayers[i] = _layers[i];
+                else
+                    newLayers[i - 1] = _layers[i];
+            }
+            _layers = newLayers;
+            _layerCount = _layers.Length;
+
         }
     }
 }

@@ -7,7 +7,8 @@ using System.Threading.Tasks;
 
 public interface IMapManager
 {
-    void AddMap();
+
+    void AddMap(MyProGisBLL.IMap map);
     void RemoveMap(int index);
     void SetFocusMap(int index);
 }
