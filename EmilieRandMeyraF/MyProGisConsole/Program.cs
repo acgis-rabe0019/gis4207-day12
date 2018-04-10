@@ -68,6 +68,32 @@ namespace MyProGisConsole
             Console.WriteLine("     FeatureLayer name = {0}", US.Layers[2].Name);
             Console.WriteLine("     FeatureLayer featureClass = {0}", RiverPath.FeatureClass);
 
+            Mymap.RemoveMap(0);
+            
+            US.RemoveLayer(2);
+
+            Console.WriteLine("Map Document Report");
+            Console.WriteLine("Focus Map = {0} ", Mapname.FocusMap.Name);
+            Console.WriteLine("Map Name = {0} ", Canada.Name);
+            Console.WriteLine("Layer Count = {0} ", Canada.Layers.Length);
+            Console.WriteLine("     FeatureLayer name = {0}", Canada.Layers[0].Name);
+            Console.WriteLine("     FeatureLayer featureClass = {0}", ProvincePath.FeatureClass);
+            Console.WriteLine(); //space
+            Console.WriteLine("     FeatureLayer name = {0}", Canada.Layers[1].Name);
+            Console.WriteLine("     FeatureLayer featureClass = {0}", LakesPath.FeatureClass);
+            Console.WriteLine(); //space
+            Console.WriteLine("Map Name = {0} ", US.Name);
+            Console.WriteLine("Layer Count = {0} ", US.Layers.Length);
+            Console.WriteLine("     FeatureLayer name = {0}", US.Layers[0].Name);
+            Console.WriteLine("     FeatureLayer featureClass = {0}", StatesPath.FeatureClass);
+            Console.WriteLine(); //space
+            Console.WriteLine("     FeatureLayer name = {0}", US.Layers[1].Name);
+            Console.WriteLine("     FeatureLayer featureClass = {0}", UsLakesPath.FeatureClass);
+            Console.WriteLine(); //space
+            Console.WriteLine("     FeatureLayer name = {0}", US.Layers[2].Name);
+            Console.WriteLine("     FeatureLayer featureClass = {0}", RiverPath.FeatureClass);
+
+
             Console.ReadKey();
         }
         

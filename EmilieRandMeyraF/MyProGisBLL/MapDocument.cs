@@ -55,21 +55,26 @@ namespace MyProGisBLL
 
         void IMapManager.RemoveMap(int index)
         {
-            if (index < 0 || index > _mapCount - 1)
-                return;
+           
+            
+                if (index < 0 || index > _mapCount - 1)
+                    return;
 
-            IMap[] newMaps = new IMap[_Maps.Length - 1];
-            for (int i = 0; i < _Maps.Length; i++)
-            {
-                if (i == index)
-                    continue;
-                else if (i < index)
-                    newMaps[i] = _Maps[i];
-                else
-                    newMaps[i - 1] = _Maps[i];
-            }
-            _Maps = newMaps;
-            _mapCount = _Maps.Length;
+                IMap[] newMaps = new IMap[_Maps.Length - 1];
+                for (int i = 0; i < _Maps.Length; i++)
+                {
+                    if (i == index)
+                        continue;
+                    else if (i < index)
+                        newMaps[i] = _Maps[i];
+                    else
+                        newMaps[i - 1] = _Maps[i];
+                }
+                _Maps = newMaps;
+                _mapCount = _Maps.Length;
+            
+            
+
         }
 
         void IMapManager.SetFocusMap(int index)
